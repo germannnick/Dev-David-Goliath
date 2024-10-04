@@ -1,13 +1,7 @@
 #David and Goliath Game
 
-As a:
-I want:
-So that:
+As a student requested to make a game.
+I wanted to bring a story with it as well.
+So that there is something more than just mindless clicking and story can be enjoyed as well.
 
-
-
-While in Dr. Cumbie's class a request for a game to "haz funz" was made.  
-Something was needed to connect all the dots of the previous missions given but with more UI, Pizaz, and Flair!
-Quest David was accepted so I created this "David", and Goliath game.
-
-To play, use your cursor to drag the stone from David's sling, and knock Goliath in the head.
+To play drag the stone and try to hit Goliath in the head.
