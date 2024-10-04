@@ -10,18 +10,36 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<body> 
 <div class="title">
     <h1>David and Goliath Sling Game</h1>
     <h2>Use the rock in David's sling to knock Goliath in the head.</h2>
   </div>
+<nav class="navbar navbar-expand-sm bg-light">
 
-  <div class="game">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#game">Game</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#story">Story</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://validator.nu/?doc=https%3A%2F%2Fgermannnick.github.io%2FDev-David-Goliath%2F">Nu Valid</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+  <div class="game" id="game">
     <img id="goliath" src="https://cdnb.artstation.com/p/assets/images/images/057/448/931/large/arun-presanthen-asset.jpg?1671624883" alt="Goliath and David Fighting">
     <img id="shot" draggable="true" src="https://th.bing.com/th/id/R.27f2b0976366d08aa8d168252ad6f320?rik=xJ9uNX63pZDLdw&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-stones-and-rocksstonerockmineralmaterialbuilding-1411527100656uer4h.png&ehk=grXiRugXrYgJ20Fo7IwBkAgSgzsrYuuXVxqtZx5M2XQ%3d&risl=1&pid=ImgRaw&r=0" class="rock" alt="Rock for sling" ondrag="slung(event)">
     <div id="headshot" class="hitBox" ondrop="hit(event)"></div>
   </div>
 
-  <div class="story">
+  <div class="story" id="story">
     <h3>
       <button id="resetButton" class="reset" type="button">Click me to reset the game.</button>
     </h3>
@@ -33,10 +51,10 @@
       <p>Now, the climax - David, with the confidence of someone who's never heard of life insurance, picks up a stone, winds up like he's in the World Series, and sling-shots it right between Goliath's eyes. Down goes Goliath, like a tree in a forest with no one around to hear it, except everyone does hear it, and it's the sound of jaws dropping all over the battlefield. David walks away, probably to the ancient equivalent of high-fives, proving that sometimes, all you need to win is a rock, a sling, and an absurd amount of faith in yourself.</p>
       <p>Story written with assistance of Grok 2</p>
   </div>
+</body>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script><script  src="./script.js"></script>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script>
 </body>
 </html>

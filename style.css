@@ -1,3 +1,16 @@
+body {
+  background-image: url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-2-full.jpg");
+}
+.container-fluid {
+  display: grid;
+  grid-template-columns: 1200px;
+  text-align: center;
+  color: #b22222;
+  background-color: #CE8946;
+  font-family: papyrus;
+  font-weight: bold;
+  border: 10px solid #B22222;
+}
 .title {
   display: grid;
   grid-template-columns: 1200px;
