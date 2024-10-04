@@ -1,11 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dev-David Homework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David and Goliath Sling Game </title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
-<h1> HELLO WORLD <h1>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="title">
+    <h1>David and Goliath Sling Game</h1>
+    <h2>Use the rock in David's sling to knock Goliath in the head.</h2>
+  </div>
 
+  <div class="game">
+    <img id="goliath" src="https://cdnb.artstation.com/p/assets/images/images/057/448/931/large/arun-presanthen-asset.jpg?1671624883" alt="Goliath and David Fighting">
+    <img id="shot" draggable="true" src="https://th.bing.com/th/id/R.27f2b0976366d08aa8d168252ad6f320?rik=xJ9uNX63pZDLdw&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-stones-and-rocksstonerockmineralmaterialbuilding-1411527100656uer4h.png&ehk=grXiRugXrYgJ20Fo7IwBkAgSgzsrYuuXVxqtZx5M2XQ%3d&risl=1&pid=ImgRaw&r=0" class="rock" alt="Rock for sling" ondrag="slung(event)">
+    <div id="headshot" class="hitBox" ondrop="hit(event)"></div>
+  </div>
 
-
+  <div class="story">
     <h3>
-        <a type = link href="https://validator.nu/?doc=https%3A%2F%2Fgermannnick.github.io%2FDev-David-Goliath%2F">
-            Nu Validator Link</a>
+      <button id="resetButton" class="reset" type="button">Click me to reset the game.</button>
     </h3>
+    <h4>
+      <p><strong>IF YOU WANT THE STORY!!!</strong></p>
+      <p>"The Ultimate Underdog Story with a Side of Sling." In the first paragraph, we've got Goliath, a giant so tall he could probably change light bulbs without a ladder, strutting around like he owns the place because, well, in his mind, he does. He's got armor heavier than my last relationship's emotional baggage, and he's out there every day, challenging the Israelites to a fight, like some sort of ancient world's most aggressive door-to-door salesman.</p>
+
+      <p>Enter David, not your typical hero, more like a shepherd boy whose resume highlights include "good with sheep" and "plays the harp." But David's got something Goliath doesn't - a slingshot, a can-do attitude, and apparently, God's personal endorsement. So, when everyone else is hiding behind their shields like it's a solar eclipse, David steps up, probably thinking, "How hard can it be?" Spoiler: Not that hard for him.</p>
+
+      <p>Now, the climax - David, with the confidence of someone who's never heard of life insurance, picks up a stone, winds up like he's in the World Series, and sling-shots it right between Goliath's eyes. Down goes Goliath, like a tree in a forest with no one around to hear it, except everyone does hear it, and it's the sound of jaws dropping all over the battlefield. David walks away, probably to the ancient equivalent of high-fives, proving that sometimes, all you need to win is a rock, a sling, and an absurd amount of faith in yourself.</p>
+      <p>Story written with assistance of Grok 2</p>
+    </h4>
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
